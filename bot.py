@@ -42,7 +42,7 @@ bot = Client(
 bot_status = False  # True para ativo, False para inativo
 
 # Seu ID de usuário como dono do bot
-OWNER_ID = 737737727  # Substitua pelo seu ID
+OWNER_ID = 5894877818  # Substitua pelo seu ID
 
 # Conexão com o banco de dados PostgreSQL
 try:
@@ -202,7 +202,7 @@ async def start_command(client, message):
         buttons = [
             [InlineKeyboardButton("ℹ️ Como usar", callback_data="help")],
             [
-                InlineKeyboardButton("👨‍💻 Criador", url="https://t.me/mulheres_apaixonadas"),
+                InlineKeyboardButton("👨‍💻 Criador", url="https://t.me/mensageanoni"),
                 InlineKeyboardButton("🛠️ Dev", url="https://t.me/lndescritivel")
             ]
         ]
